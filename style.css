@@ -14,3 +14,29 @@
     border-radius: 10px;
     padding:10px;
 }
+.display{
+    display: flex;
+    flex-direction: column;
+    font-family: 'calcFont', 'sans-serif';
+    background-color:rgb(188, 238, 188);
+    width:390px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: end;
+    align-items: end;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.key{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button{
+    width: 97px;
+    height: 97px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
