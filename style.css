@@ -31,6 +31,13 @@
 .key{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
 }
 
 button{
@@ -38,5 +45,10 @@ button{
     height: 97px;
     border-radius: 10px;
     font-size: 30px;
+}
 
+#btnEqual{
+    grid-column: span 2; /* Make the button span two columns */
+    height: 97px; /* Allow grid to handle sizing */
+    width: 194px;
 }
